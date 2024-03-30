@@ -1,0 +1,30 @@
+{
+  "name": "tailwind",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000t\u0000a\u0000i\u0000l\u0000w\u0000i\u0000n\u0000d\u0000p\u0000r\u0000o\u0000j\u0000e\u0000c\u0000t\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MichelleDuque/tailwindproject.git"
+  },
+  "keywords": [],
+  "author": "Michelle Duque <michelled_1994@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MichelleDuque/tailwindproject/issues"
+  },
+  "homepage": "https://github.com/MichelleDuque/tailwindproject#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "prettier": "^3.2.5",
+    "prettier-plugin-tailwindcss": "^0.5.13",
+    "tailwindcss": "^3.4.3",
+    "vite": "^5.2.7"
+  }
+}
