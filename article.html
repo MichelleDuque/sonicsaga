@@ -50,7 +50,7 @@
           </a>
           <div class="space-x-8 ml-8 hidden md:flex">
             <a
-              class="text-slate-600 px-3 py-2 transition-colors hover:text-sky-500"
+              class="px-3 py-2 transition-colors text-slate-600 hover:text-sky-500"
               href="/"
               >Home</a
             >
@@ -59,12 +59,12 @@
               href="/about.html"
               >About</a
             >
+            <a class="px-3 py-2 text-sky-500" href="/blog.html">Blog</a>
             <a
               class="text-slate-600 px-3 py-2 transition-colors hover:text-sky-500"
-              href="/blog.html"
-              >Blog</a
+              href="/contact.html"
+              >Contact</a
             >
-            <a class="px-3 py-2 text-sky-500" href="/contact.html">Contact</a>
           </div>
         </div>
 
@@ -100,7 +100,7 @@
           </button>
         </div>
       </div>
-      <div class="hidden space-y-1 pb-3 pt-2 border-t sm:hidden">
+      <div class="space-y-1 pb-3 pt-2 border-t sm:hidden">
         <a
           href="/"
           class="block rounded-md px-3 py-2 text-slate-700 transition-colors hover:bg-sky-500 hover:text-white"
@@ -113,56 +113,95 @@
         >
         <a
           href="/blog.html"
-          class="block rounded-md px-3 py-2 text-slate-700 transition-colors hover:bg-sky-500 hover:text-white"
+          class="block rounded-md px-3 py-2 bg-sky-500 text-white"
           >Blog</a
         >
         <a
           href="/contact.html"
-          class="block rounded-md px-3 py-2 bg-sky-500 text-white"
+          class="block rounded-md px-3 py-2 text-slate-700 transition-colors hover:bg-sky-500 hover:text-white"
           >Contact</a
         >
       </div>
     </header>
 
     <main class="flex-1 p-4">
-      <div class="mx-auto mt-4 max-w-6xl">
-        <div
-          class="mx-auto max-w-xl rounded-lg bg-white p-10 shadow-lg dark:bg-slate-900 md:p-14"
-        >
-          <h1
-            class="text-center font-serif text-3xl font-extrabold text-sky-600 dark:text-sky-400"
-          >
-            Contact Us
-          </h1>
-          <form class="mt-10 flex flex-col space-y-4">
-            <input
-              type="text"
-              class="rounded-md border-slate-300 bg-slate-50 text-slate-600 shadow-sm placeholder:text-slate-400 focus:border-sky-600 focus:ring-sky-600 dark:border-slate-700 dark:bg-slate-950 dark:text-slate-200"
-              placeholder="Full Name"
-            />
-            <input
-              type="email"
-              class="rounded-md border-slate-300 bg-slate-50 text-slate-600 shadow-sm placeholder:text-slate-400 focus:border-sky-600 focus:ring-sky-600 dark:border-slate-700 dark:bg-slate-950 dark:text-slate-200"
-              placeholder="E-mail"
-            />
-            <input
-              type="text"
-              class="rounded-md border-slate-300 bg-slate-50 text-slate-600 shadow-sm placeholder:text-slate-400 focus:border-sky-600 focus:ring-sky-600 dark:border-slate-700 dark:bg-slate-950 dark:text-slate-200"
-              placeholder="Subject"
-            />
-            <textarea
-              class="rounded-md border-slate-300 bg-slate-50 text-slate-600 shadow-sm placeholder:text-slate-400 focus:border-sky-600 focus:ring-sky-600 dark:border-slate-700 dark:bg-slate-950 dark:text-slate-200"
-              placeholder="Message"
-            ></textarea>
-            <button
-              class="rounded-md bg-sky-500 py-2 text-lg font-bold text-white shadow-md duration-300 hover:bg-sky-600 active:bg-sky-400"
-              type="submit"
-            >
-              Send
-            </button>
-          </form>
+      <article class="mx-auto flex max-w-4xl flex-col">
+        <div class="h-52 md:h-72 lg:h-96">
+          <img
+            class="h-full w-full rounded object-cover object-center"
+            src="/images/article-6.jpg"
+            alt="The Beatles: Enduring Power in Music"
+          />
         </div>
-      </div>
+        <div class="flex-1 space-y-3 pt-4 md:text-center">
+          <h3 class="text-sm font-semibold text-sky-500 dark:text-sky-400">
+            The Beatles
+          </h3>
+          <h2
+            class="text-2xl font-semibold leading-tight text-slate-800 dark:text-slate-200 md:text-4xl"
+          >
+            The Beatles: Enduring Power in Music
+          </h2>
+        </div>
+        <div class="flex space-x-2 pt-4 md:mx-auto">
+          <img
+            class="h-10 w-10 rounded-full"
+            src="https://ui-avatars.com/api?name=Sebastian-Martinez"
+            alt="Sebastian Martinez"
+          />
+          <div class="flex flex-col justify-center">
+            <span
+              class="text-sm font-semibold leading-4 text-slate-600 dark:text-slate-400"
+            >
+              Sebastian Martinez
+            </span>
+            <span class="text-sm text-slate-500 dark:text-slate-400">
+              March 5, 2023
+            </span>
+          </div>
+        </div>
+        <div
+          class="prose prose-slate mx-auto mt-6 dark:prose-invert lg:prose-xl"
+        >
+          <h2>Heading 2</h2>
+          <h3>Heading 3</h3>
+          <h4>Heading 4</h4>
+          <h5>Heading 5</h5>
+          <h6>Heading 6</h6>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi hic
+            eum nisi architecto debitis deserunt. Vel delectus eius dolores
+            libero recusandae maxime fugit unde, aliquam possimus, numquam
+            consectetur impedit voluptatem!
+          </p>
+          <ul>
+            <li>List item 1</li>
+            <li>List item 2</li>
+            <li>List item 3</li>
+            <li>List item 4</li>
+          </ul>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint
+            reprehenderit, ex accusamus totam asperiores illum rerum maiores
+            alias quia distinctio necessitatibus accusantium impedit est beatae
+            fugit iste molestias itaque sit.
+          </p>
+          <ol>
+            <li>List item 1</li>
+            <li>List item 2</li>
+            <li>List item 3</li>
+            <li>List item 4</li>
+          </ol>
+          <pre><code>class User {}</code></pre>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+            perspiciatis modi
+            <code>php artisan serve</code> reiciendis! Libero porro quis nemo
+            odio, perferendis, quo illo assumenda autem praesentium numquam
+            possimus quaerat doloribus! Praesentium, provident accusantium.
+          </p>
+        </div>
+      </article>
     </main>
 
     <footer class="p-4">
