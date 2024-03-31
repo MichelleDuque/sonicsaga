@@ -1,13 +1,13 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="dark">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="tailwind.css" />
     <title>Tailwind</title>
   </head>
-  <body class="flex flex-col h-screen bg-slate-100">
-    <header class="bg-white shadow px-6">
+  <body class="flex flex-col h-screen bg-slate-100 dark:bg-black">
+    <header class="bg-white shadow px-6 dark:bg-slate-900">
       <div class="mx-auto flex h-16 max-w-6xl justify-between items-center">
         <button
           class="-ml-1 rounded p1 text-slate-500 hover:bg-sky-500 hover:text-slate-100 transition-colors focus:ring-2 focus:ring-slate-200"
@@ -135,16 +135,20 @@
       >
         <article class="rounded bg-white shadow overflow-hidden flex flex-col">
           <div class="h-52">
-            <img
-              class="h-full w-full object-cover object-center"
-              src="/images/article-1.jpg"
-              alt="Michael Jackson: A Musical and Cultural Icon"
-            />
+            <a class="hover:opacity-75 duration-300" href="/article.html">
+              <img
+                class="h-full w-full object-cover object-center"
+                src="/images/article-1.jpg"
+                alt="Michael Jackson: A Musical and Cultural Icon"
+              />
+            </a>
           </div>
           <div class="p-5 space-y-3 flex-1">
             <h3 class="text-sm font-semibold text-sky-500">Michael Jackson</h3>
             <h2 class="text-xl font-semibold leading-tight text-slate-800">
-              Michael Jackson: A Musical and Cultural Icon
+              <a class="hover:underline" href="/article.html"
+                >Michael Jackson: A Musical and Cultural Icon</a
+              >
             </h2>
             <p class="text-slate-500 hidden md:block">
               Michael Jackson: A Musical and Cultural Icon" delves into the
@@ -170,16 +174,20 @@
 
         <article class="rounded bg-white shadow overflow-hidden flex flex-col">
           <div class="h-52">
-            <img
-              class="h-full w-full object-cover object-center"
-              src="/images/article-2.jpg"
-              alt="Reviving the Magic: Exploring the Resurgence of Vinyl Records"
-            />
+            <a class="hover:opacity-75 duration-300" href="/article.html">
+              <img
+                class="h-full w-full object-cover object-center"
+                src="/images/article-2.jpg"
+                alt="Reviving the Magic: Exploring the Resurgence of Vinyl Records"
+              />
+            </a>
           </div>
           <div class="p-5 space-y-3 flex-1">
             <h3 class="text-sm font-semibold text-sky-500">Retro</h3>
             <h2 class="text-xl font-semibold leading-tight text-slate-800">
-              Reviving the Magic: Exploring the Resurgence of Vinyl Records
+              <a class="hover:underline" href="/article.html">
+                Reviving the Magic: Exploring the Resurgence of Vinyl Records
+              </a>
             </h2>
             <p class="text-slate-500 hidden md:block">
               Vinyl records are back in the spotlight, offering a nostalgic
@@ -205,17 +213,21 @@
 
         <article class="rounded bg-white shadow overflow-hidden flex flex-col">
           <div class="h-52">
-            <img
-              class="h-full w-full object-cover object-center"
-              src="/images/article-3.jpg"
-              alt="The Golden Era of Sound: Exploring the Timeless Melodies of 1950s Music"
-            />
+            <a class="hover:opacity-75 duration-300" href="/article.html">
+              <img
+                class="h-full w-full object-cover object-center"
+                src="/images/article-3.jpg"
+                alt="The Golden Era of Sound: Exploring the Timeless Melodies of 1950s Music"
+              />
+            </a>
           </div>
           <div class="p-5 space-y-3 flex-1">
             <h3 class="text-sm font-semibold text-sky-500">Retro</h3>
             <h2 class="text-xl font-semibold leading-tight text-slate-800">
-              The Golden Era of Sound: Exploring the Timeless Melodies of 1950s
-              Music
+              <a class="hover:underline" href="/article.html">
+                The Golden Era of Sound: Exploring the Timeless Melodies of
+                1950s Music
+              </a>
             </h2>
             <p class="text-slate-500 hidden md:block">
               The 1950s saw the birth of rock and roll with icons like Elvis
@@ -241,17 +253,21 @@
 
         <article class="rounded bg-white shadow overflow-hidden flex flex-col">
           <div class="h-52">
-            <img
-              class="h-full w-full object-cover object-center"
-              src="/images/article-4.jpg"
-              alt="A Night of Musical Magic: Recounting the Sensational Concert Experience"
-            />
+            <a class="hover:opacity-75 duration-300" href="/article.html">
+              <img
+                class="h-full w-full object-cover object-center"
+                src="/images/article-4.jpg"
+                alt="A Night of Musical Magic: Recounting the Sensational Concert Experience"
+              />
+            </a>
           </div>
           <div class="p-5 space-y-3 flex-1">
             <h3 class="text-sm font-semibold text-sky-500">Concerts</h3>
             <h2 class="text-xl font-semibold leading-tight text-slate-800">
-              A Night of Musical Magic: Recounting the Sensational Concert
-              Experience
+              <a class="hover:underline" href="/article.html">
+                A Night of Musical Magic: Recounting the Sensational Concert
+                Experience
+              </a>
             </h2>
             <p class="text-slate-500 hidden md:block">
               Step back into the enchantment of a remarkable concert, where
@@ -277,16 +293,20 @@
 
         <article class="rounded bg-white shadow overflow-hidden flex flex-col">
           <div class="h-52">
-            <img
-              class="h-full w-full object-cover object-center"
-              src="/images/article-5.jpg"
-              alt="Exploring the Soul of Jazz: A Musical Journey Through Time"
-            />
+            <a class="hover:opacity-75 duration-300" href="/article.html">
+              <img
+                class="h-full w-full object-cover object-center"
+                src="/images/article-5.jpg"
+                alt="Exploring the Soul of Jazz: A Musical Journey Through Time"
+              />
+            </a>
           </div>
           <div class="p-5 space-y-3 flex-1">
             <h3 class="text-sm font-semibold text-sky-500">Jazz</h3>
             <h2 class="text-xl font-semibold leading-tight text-slate-800">
-              Exploring the Soul of Jazz: A Musical Journey Through Time
+              <a class="hover:underline" href="/article.html">
+                Exploring the Soul of Jazz: A Musical Journey Through Time
+              </a>
             </h2>
             <p class="text-slate-500 hidden md:block">
               Embark on a journey through the vibrant world of jazz, where
@@ -312,16 +332,20 @@
 
         <article class="rounded bg-white shadow overflow-hidden flex flex-col">
           <div class="h-52">
-            <img
-              class="h-full w-full object-cover object-center"
-              src="/images/article-6.jpg"
-              alt="The Beatles: Enduring Power in Music"
-            />
+            <a class="hover:opacity-75 duration-300" href="/article.html">
+              <img
+                class="h-full w-full object-cover object-center"
+                src="/images/article-6.jpg"
+                alt="The Beatles: Enduring Power in Music"
+              />
+            </a>
           </div>
           <div class="p-5 space-y-3 flex-1">
             <h3 class="text-sm font-semibold text-sky-500">The Beatles</h3>
             <h2 class="text-xl font-semibold leading-tight text-slate-800">
-              The Beatles: Enduring Power in Music
+              <a class="hover:underline" href="/article.html">
+                The Beatles: Enduring Power in Music
+              </a>
             </h2>
             <p class="text-slate-500 hidden md:block">
               Explore The Beatles' lasting influence on music, from their
